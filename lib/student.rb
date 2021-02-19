@@ -37,7 +37,8 @@ def save
     DB[:conn].execute(sql, self.name, self.grade)
 end
 
-def self.creates
+def self.create(name,grade)
+  
 end
 
 
